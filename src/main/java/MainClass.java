@@ -1,3 +1,13 @@
+import Question10.ConcurrentMapUsage;
+import Question10.HashMapUsage;
+import Question10.LinkedHashMapUsage;
+import Question10.TreeMapUsage;
+import Question11.ArrayListUsage;
+import Question11.ArrayUsage;
+import Question11.LinkedListUsage;
+
+import java.util.LinkedHashMap;
+
 public class MainClass {
   public static void main(String[] args) {
       //Question 1
@@ -22,5 +32,14 @@ public class MainClass {
      } else {
          System.out.println("Maximum product is " + MaxProductOf3Element.maxProduct(arrayForProduct));
      }
+     // Question 10
+      HashMapUsage.useOfHashMap();
+      LinkedHashMapUsage.useOfLinkedHashMap();
+      TreeMapUsage.useOfTreeMap();
+      ConcurrentMapUsage.useOfConcurrentMap();
+      // Question 11
+      ArrayUsage.useOfArray();
+      ArrayListUsage.useOfArrayList();
+      LinkedListUsage.useOfLinkedList();
   }
 }
